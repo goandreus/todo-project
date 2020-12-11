@@ -1,13 +1,13 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_ui_avanzadas/libs/auth.dart';
-import 'package:flutter_ui_avanzadas/pages/home/home_page.dart';
-import 'package:flutter_ui_avanzadas/pages/login/widgets/input_text_login.dart';
-import 'package:flutter_ui_avanzadas/utils/extras.dart';
-import 'package:flutter_ui_avanzadas/utils/responsive.dart';
-import 'package:flutter_ui_avanzadas/widgets/circle_button.dart';
-import 'package:flutter_ui_avanzadas/widgets/rounded_button.dart';
+import 'package:todo_project/libs/auth.dart';
+import 'package:todo_project/pages/home/home_page.dart';
+import 'package:todo_project/pages/login/widgets/input_text_login.dart';
+import 'package:todo_project/utils/extras.dart';
+import 'package:todo_project/utils/responsive.dart';
+import 'package:todo_project/widgets/circle_button.dart';
+import 'package:todo_project/widgets/rounded_button.dart';
 
 class LoginForm extends StatefulWidget {
   final Alignment alignment;

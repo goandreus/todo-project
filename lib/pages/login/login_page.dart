@@ -1,11 +1,11 @@
 import 'package:after_layout/after_layout.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_ui_avanzadas/pages/login/widgets/forgot_password_form.dart';
-import 'package:flutter_ui_avanzadas/pages/login/widgets/login_form.dart';
-import 'package:flutter_ui_avanzadas/pages/login/widgets/register_form.dart';
-import 'package:flutter_ui_avanzadas/pages/login/widgets/welcome.dart';
-import 'package:flutter_ui_avanzadas/utils/responsive.dart';
+import 'package:todo_project/pages/login/widgets/forgot_password_form.dart';
+import 'package:todo_project/pages/login/widgets/login_form.dart';
+import 'package:todo_project/pages/login/widgets/register_form.dart';
+import 'package:todo_project/pages/login/widgets/welcome.dart';
+import 'package:todo_project/utils/responsive.dart';
 
 class LoginFormType {
   static final int login = 0;

@@ -1,9 +1,9 @@
 import 'package:after_layout/after_layout.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_avanzadas/libs/auth.dart';
-import 'package:flutter_ui_avanzadas/pages/home/home_page.dart';
-import 'package:flutter_ui_avanzadas/pages/login/login_page.dart';
+import 'package:todo_project/libs/auth.dart';
+import 'package:todo_project/pages/home/home_page.dart';
+import 'package:todo_project/pages/login/login_page.dart';
 
 class SplashPage extends StatefulWidget {
   static final routeName = 'splash';
