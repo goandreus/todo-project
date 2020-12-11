@@ -1,0 +1,56 @@
+name: todo_project
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.18.1
+  after_layout: ^1.0.7+2
+  firebase_core: ^0.5.0
+  firebase_auth: ^0.18.0+1
+  google_sign_in: ^4.4.1
+  flutter_facebook_auth: ^0.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+ 
+  assets:
+   - assets/pages/login/clouds.svg
+   - assets/pages/login/man.svg
+   - assets/pages/login/woman.svg
+   - assets/pages/login/icons/email.svg
+   - assets/pages/login/icons/key.svg
+   - assets/pages/login/icons/facebook.svg
+   - assets/pages/login/icons/google.svg
+   - assets/pages/login/icons/avatar.svg
+
+  fonts:
+    - family: sans
+      fonts:
+        - asset: assets/fonts/OpenSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+    - family: raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Bold.ttf
+          weight: 700
+
